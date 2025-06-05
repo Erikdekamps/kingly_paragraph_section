@@ -3,6 +3,7 @@ type: 'Site'
 description: 'Configures Kingly layouts.'
 
 install:
+  - kingly_layouts
   - field_layout
 
 config:
