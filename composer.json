@@ -1,0 +1,12 @@
+{
+    "name": "erikdekamps/kingly_paragraph_section",
+    "description": "A Drupal recipe that configures a Kingly section paragraph.",
+    "keywords": ["recipe", "Drupal base install", "best practices", "simple install"],
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "drupal/core": "^10.3 || ^11",
+        "drupal/layout_paragraphs": "^2.1",
+        "erikdekamps/kingly_layouts": "dev-main"
+    }
+}

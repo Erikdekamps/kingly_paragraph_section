@@ -1,0 +1,17 @@
+name: 'Kingly Layouts'
+type: 'Site'
+description: 'Configures Kingly layouts.'
+
+install:
+  - field_layout
+
+config:
+  strict: false
+  actions:
+    core.entity_form_display.node.kingly_page.default:
+      setComponent:
+        name: 'field_content'
+        options:
+          type: 'layout_paragraphs'
+          settings:
+            require_layouts: 1
