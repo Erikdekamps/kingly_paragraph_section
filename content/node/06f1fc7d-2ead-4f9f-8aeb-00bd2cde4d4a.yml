@@ -1,0 +1,1589 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 06f1fc7d-2ead-4f9f-8aeb-00bd2cde4d4a
+  bundle: kingly_page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Layouts
+  created:
+    -
+      value: 1750764671
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /layouts
+      langcode: en
+      pathauto: 1
+  field_content:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: ab78e74f-8202-42dc-ab93-97dd7705e7ac
+          bundle: kingly_paragraph_section
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764677
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  layout: kingly_onecol
+                  config:
+                    label: ''
+                  parent_uuid: null
+                  region: null
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 8785365f-4752-4098-81c7-5699b4f03189
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764691
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: ab78e74f-8202-42dc-ab93-97dd7705e7ac
+                  region: content
+          field_kingly_text:
+            -
+              value: '<p>Layout one column 100%.</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 28152573-200e-4d18-98cb-fbdeb5660839
+          bundle: kingly_paragraph_section
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764677
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  move_items:
+                    content: first
+                  layout: kingly_twocol
+                  config:
+                    label: ''
+                    sizing_option: 50-50
+                  parent_uuid: null
+                  region: null
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 2fe8adb9-2b0d-4158-8dbf-94f637a3c973
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764856
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: 28152573-200e-4d18-98cb-fbdeb5660839
+                  region: first
+          field_kingly_text:
+            -
+              value: '<p>Layout two col&nbsp;</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: d8049dba-9a02-4559-941d-16c527b199df
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764856
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: 28152573-200e-4d18-98cb-fbdeb5660839
+                  region: second
+          field_kingly_text:
+            -
+              value: '<p>Layout two col&nbsp;</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 4780db30-5ab3-44c3-ad91-67180224b46e
+          bundle: kingly_paragraph_section
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764677
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  move_items:
+                    content: first
+                  layout: kingly_twocol
+                  config:
+                    label: ''
+                    sizing_option: 50-50
+                  parent_uuid: null
+                  region: null
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 24312bf7-5d50-449f-afa6-ccad5566a88b
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764856
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: 4780db30-5ab3-44c3-ad91-67180224b46e
+                  region: first
+          field_kingly_text:
+            -
+              value: '<p>Layout two col&nbsp;</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 67ccc6ef-d8bd-41f5-81cd-bae5e27e56d8
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764856
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: 4780db30-5ab3-44c3-ad91-67180224b46e
+                  region: second
+          field_kingly_text:
+            -
+              value: '<p>Layout two col&nbsp;</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: e5ed1110-5b97-459f-adc2-c7d97b654a97
+          bundle: kingly_paragraph_section
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764677
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  move_items:
+                    content: first
+                  layout: kingly_twocol
+                  config:
+                    label: ''
+                    sizing_option: 50-50
+                  parent_uuid: null
+                  region: null
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 577e8d31-4ee1-4381-9bc3-ba5b0bdaa3c0
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764856
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: e5ed1110-5b97-459f-adc2-c7d97b654a97
+                  region: first
+          field_kingly_text:
+            -
+              value: '<p>Layout two col&nbsp;</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 92ff79c9-32a8-47cc-85cc-afe4661dc2f9
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764856
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: e5ed1110-5b97-459f-adc2-c7d97b654a97
+                  region: second
+          field_kingly_text:
+            -
+              value: '<p>Layout two col&nbsp;</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 84529999-ec23-4eb1-b20a-65d017edee48
+          bundle: kingly_paragraph_section
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764677
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  move_items:
+                    content: first
+                  layout: kingly_twocol
+                  config:
+                    label: ''
+                    sizing_option: 50-50
+                  parent_uuid: null
+                  region: null
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 4f7c285c-ca4c-4cd2-b6b7-c50152f88c3d
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764856
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: 84529999-ec23-4eb1-b20a-65d017edee48
+                  region: first
+          field_kingly_text:
+            -
+              value: '<p>Layout two col&nbsp;</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 88a7ece4-2dfe-40e1-a469-f5365e924e77
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764856
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: 84529999-ec23-4eb1-b20a-65d017edee48
+                  region: second
+          field_kingly_text:
+            -
+              value: '<p>Layout two col&nbsp;</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 2dba3325-f455-4131-aa26-a6e8845392fb
+          bundle: kingly_paragraph_section
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764677
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  move_items:
+                    content: first
+                  layout: kingly_twocol
+                  config:
+                    label: ''
+                    sizing_option: 50-50
+                  parent_uuid: null
+                  region: null
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 06b494ba-f8ec-4fde-882e-23c5b2c601e2
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764856
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: 2dba3325-f455-4131-aa26-a6e8845392fb
+                  region: first
+          field_kingly_text:
+            -
+              value: '<p>Layout two col&nbsp;</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 1fa029bb-2923-4029-9c87-965b2ce9bcf0
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764856
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: 2dba3325-f455-4131-aa26-a6e8845392fb
+                  region: second
+          field_kingly_text:
+            -
+              value: '<p>Layout two col&nbsp;</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: b95f3d14-833d-45dd-9a61-c73fefd4298c
+          bundle: kingly_paragraph_section
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764677
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  layout: kingly_threecol
+                  config:
+                    label: ''
+                    sizing_option: 33-34-33
+                  move_items:
+                    content: first
+                  parent_uuid: null
+                  region: null
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: bcb22167-b6dc-4f10-9e02-ef2950c898ce
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764898
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: b95f3d14-833d-45dd-9a61-c73fefd4298c
+                  region: first
+          field_kingly_text:
+            -
+              value: '<p>Layout three column</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 7d456bcd-4006-45b8-a316-4e20634f45d3
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764898
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: b95f3d14-833d-45dd-9a61-c73fefd4298c
+                  region: second
+          field_kingly_text:
+            -
+              value: '<p>Layout three column</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: bfc1114d-cc59-4816-b4bb-0bfb0e2c65d5
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764898
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: b95f3d14-833d-45dd-9a61-c73fefd4298c
+                  region: third
+          field_kingly_text:
+            -
+              value: '<p>Layout three column</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: e0c5d3f9-30a9-447b-a95d-3fa2b7cb63da
+          bundle: kingly_paragraph_section
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764677
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  layout: kingly_threecol
+                  config:
+                    label: ''
+                    sizing_option: 25-50-25
+                  move_items:
+                    content: first
+                  parent_uuid: null
+                  region: null
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 8a337e69-4b85-4bb9-b215-5806d3e05978
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764898
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: e0c5d3f9-30a9-447b-a95d-3fa2b7cb63da
+                  region: first
+          field_kingly_text:
+            -
+              value: '<p>Layout three column</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 5bab2b25-00e8-4a35-967d-4c5cdae365df
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764898
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: e0c5d3f9-30a9-447b-a95d-3fa2b7cb63da
+                  region: second
+          field_kingly_text:
+            -
+              value: '<p>Layout three column</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: a22d4497-ef2e-431d-a2c1-2de7f58482c9
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764898
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: e0c5d3f9-30a9-447b-a95d-3fa2b7cb63da
+                  region: third
+          field_kingly_text:
+            -
+              value: '<p>Layout three column</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: f3769236-da4d-45e4-a591-373e4db6fb15
+          bundle: kingly_paragraph_section
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764677
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  layout: kingly_threecol
+                  config:
+                    label: ''
+                    sizing_option: 25-25-50
+                  move_items:
+                    content: first
+                  parent_uuid: null
+                  region: null
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 78bb1941-a00a-4f70-b040-92193da7fec8
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764898
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: f3769236-da4d-45e4-a591-373e4db6fb15
+                  region: first
+          field_kingly_text:
+            -
+              value: '<p>Layout three column</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 748967df-29a6-4a03-b8ea-92c6d9571014
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764898
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: f3769236-da4d-45e4-a591-373e4db6fb15
+                  region: second
+          field_kingly_text:
+            -
+              value: '<p>Layout three column</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: f24bd795-879c-4b94-ad9a-40bd6f5f7c0f
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764898
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: f3769236-da4d-45e4-a591-373e4db6fb15
+                  region: third
+          field_kingly_text:
+            -
+              value: '<p>Layout three column</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 61ee5c40-1206-4d4f-b864-e33ce75762fe
+          bundle: kingly_paragraph_section
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764677
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  layout: kingly_threecol
+                  config:
+                    label: ''
+                    sizing_option: 50-25-25
+                  move_items:
+                    content: first
+                  parent_uuid: null
+                  region: null
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 9464e66e-6e5e-409d-b3c2-b5c814fc4ef4
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764898
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: 61ee5c40-1206-4d4f-b864-e33ce75762fe
+                  region: first
+          field_kingly_text:
+            -
+              value: '<p>Layout three column</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: a05af809-a40e-46fd-88d0-3c978ec93984
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764898
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: 61ee5c40-1206-4d4f-b864-e33ce75762fe
+                  region: second
+          field_kingly_text:
+            -
+              value: '<p>Layout three column</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: f941e8a9-6d42-4e9d-8305-3f8a18e10048
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764898
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: 61ee5c40-1206-4d4f-b864-e33ce75762fe
+                  region: third
+          field_kingly_text:
+            -
+              value: '<p>Layout three column</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 71338b32-3819-4a36-857c-4695551f2128
+          bundle: kingly_paragraph_section
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764677
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  layout: kingly_fourcol
+                  config:
+                    label: ''
+                    sizing_option: 25-25-25-25
+                  move_items:
+                    content: first
+                  parent_uuid: null
+                  region: null
+          revision_translation_affected:
+            -
+              value: true
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 824a8cf6-c345-46f3-911e-3298719637ef
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764898
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: 71338b32-3819-4a36-857c-4695551f2128
+                  region: first
+          revision_translation_affected:
+            -
+              value: true
+          field_kingly_text:
+            -
+              value: '<p>Layout four column</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 082a5565-3132-4b21-8d8a-5ea5eabeb158
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764898
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: 71338b32-3819-4a36-857c-4695551f2128
+                  region: second
+          revision_translation_affected:
+            -
+              value: true
+          field_kingly_text:
+            -
+              value: '<p>Layout four column</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: ac8156d3-6c5b-4010-98a1-e37558a85a3c
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764898
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: 71338b32-3819-4a36-857c-4695551f2128
+                  region: third
+          revision_translation_affected:
+            -
+              value: true
+          field_kingly_text:
+            -
+              value: '<p>Layout four column</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 88d2edff-b904-4936-ac43-4324d36466a9
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764898
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: 71338b32-3819-4a36-857c-4695551f2128
+                  region: fourth
+          revision_translation_affected:
+            -
+              value: true
+          field_kingly_text:
+            -
+              value: '<p>Layout four column</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 0cc26e97-00ae-4c3e-b70f-c5d30651da91
+          bundle: kingly_paragraph_section
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764677
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  layout: kingly_fourcol
+                  config:
+                    label: ''
+                    sizing_option: 40-20-20-20
+                  move_items:
+                    content: first
+                  parent_uuid: null
+                  region: null
+          revision_translation_affected:
+            -
+              value: true
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: c1cfd389-c359-4c64-80c5-3e76501075a2
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764898
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: 0cc26e97-00ae-4c3e-b70f-c5d30651da91
+                  region: first
+          revision_translation_affected:
+            -
+              value: true
+          field_kingly_text:
+            -
+              value: '<p>Layout four column</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: b1126e3b-a2a7-4550-abef-a447cf78bc4f
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764898
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: 0cc26e97-00ae-4c3e-b70f-c5d30651da91
+                  region: second
+          revision_translation_affected:
+            -
+              value: true
+          field_kingly_text:
+            -
+              value: '<p>Layout four column</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 8b772a00-b753-4c96-b572-5ae6c0120334
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764898
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: 0cc26e97-00ae-4c3e-b70f-c5d30651da91
+                  region: third
+          revision_translation_affected:
+            -
+              value: true
+          field_kingly_text:
+            -
+              value: '<p>Layout four column</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: fee1d40e-c10b-4d83-b10e-097178c731bb
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764898
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: 0cc26e97-00ae-4c3e-b70f-c5d30651da91
+                  region: fourth
+          revision_translation_affected:
+            -
+              value: true
+          field_kingly_text:
+            -
+              value: '<p>Layout four column</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 573862cb-4d18-4a1e-b471-f9b67fd47943
+          bundle: kingly_paragraph_section
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764677
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  layout: kingly_fourcol
+                  config:
+                    label: ''
+                    sizing_option: 20-40-20-20
+                  move_items:
+                    content: first
+                  parent_uuid: null
+                  region: null
+          revision_translation_affected:
+            -
+              value: true
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 96a5f1a3-393f-4e70-b153-84cc2206a615
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764898
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: 573862cb-4d18-4a1e-b471-f9b67fd47943
+                  region: first
+          revision_translation_affected:
+            -
+              value: true
+          field_kingly_text:
+            -
+              value: '<p>Layout four column</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 2f57e87b-40fc-40d7-9955-154e06fc342e
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764898
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: 573862cb-4d18-4a1e-b471-f9b67fd47943
+                  region: second
+          revision_translation_affected:
+            -
+              value: true
+          field_kingly_text:
+            -
+              value: '<p>Layout four column</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 956b4df8-f32b-4409-81c7-51b33f0b7f9e
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764898
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: 573862cb-4d18-4a1e-b471-f9b67fd47943
+                  region: third
+          revision_translation_affected:
+            -
+              value: true
+          field_kingly_text:
+            -
+              value: '<p>Layout four column</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 3f42a960-35f4-4f59-a0dd-0bfc21379e8b
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764898
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: 573862cb-4d18-4a1e-b471-f9b67fd47943
+                  region: fourth
+          revision_translation_affected:
+            -
+              value: true
+          field_kingly_text:
+            -
+              value: '<p>Layout four column</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: a3791b10-ed40-41e1-8ad0-f97d4981ab32
+          bundle: kingly_paragraph_section
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764677
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  layout: kingly_fourcol
+                  config:
+                    label: ''
+                    sizing_option: 20-20-40-20
+                  move_items:
+                    content: first
+                  parent_uuid: null
+                  region: null
+          revision_translation_affected:
+            -
+              value: true
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: b8f8875f-f22f-4f20-9aff-6ee64884fe0d
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764898
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: a3791b10-ed40-41e1-8ad0-f97d4981ab32
+                  region: first
+          revision_translation_affected:
+            -
+              value: true
+          field_kingly_text:
+            -
+              value: '<p>Layout four column</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 557fcb43-a18b-4ad7-a8b4-010f17320130
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764898
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: a3791b10-ed40-41e1-8ad0-f97d4981ab32
+                  region: second
+          revision_translation_affected:
+            -
+              value: true
+          field_kingly_text:
+            -
+              value: '<p>Layout four column</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 9166c094-1ce2-4e7a-9a01-cfe5e5bcb3cc
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764898
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: a3791b10-ed40-41e1-8ad0-f97d4981ab32
+                  region: third
+          revision_translation_affected:
+            -
+              value: true
+          field_kingly_text:
+            -
+              value: '<p>Layout four column</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 731242ce-b92b-42b6-ac06-8d8b3f13c17b
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764898
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: a3791b10-ed40-41e1-8ad0-f97d4981ab32
+                  region: fourth
+          revision_translation_affected:
+            -
+              value: true
+          field_kingly_text:
+            -
+              value: '<p>Layout four column</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: e37d53b3-73a8-413b-9d83-2f87a800a56e
+          bundle: kingly_paragraph_section
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764677
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  layout: kingly_fourcol
+                  config:
+                    label: ''
+                    sizing_option: 20-20-20-40
+                  move_items:
+                    content: first
+                  parent_uuid: null
+                  region: null
+          revision_translation_affected:
+            -
+              value: true
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: e1a33985-6105-42b1-93c1-35eb3ca92b40
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764898
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: e37d53b3-73a8-413b-9d83-2f87a800a56e
+                  region: first
+          revision_translation_affected:
+            -
+              value: true
+          field_kingly_text:
+            -
+              value: '<p>Layout four column</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: c1949d1b-60d1-4f50-b3db-e69765ff3d72
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764898
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: e37d53b3-73a8-413b-9d83-2f87a800a56e
+                  region: second
+          revision_translation_affected:
+            -
+              value: true
+          field_kingly_text:
+            -
+              value: '<p>Layout four column</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 057b3700-2ef8-47d2-998f-0cda5a5d4f99
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764898
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: e37d53b3-73a8-413b-9d83-2f87a800a56e
+                  region: third
+          revision_translation_affected:
+            -
+              value: true
+          field_kingly_text:
+            -
+              value: '<p>Layout four column</p>'
+              format: basic_html
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: ae4e7f7d-4d67-4d61-b8e0-081547ede3fc
+          bundle: kingly_paragraph_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750764898
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: e37d53b3-73a8-413b-9d83-2f87a800a56e
+                  region: fourth
+          revision_translation_affected:
+            -
+              value: true
+          field_kingly_text:
+            -
+              value: '<p>Layout four column</p>'
+              format: basic_html
