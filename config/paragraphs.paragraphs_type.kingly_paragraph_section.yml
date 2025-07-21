@@ -12,7 +12,7 @@ behavior_plugins:
   layout_paragraphs:
     enabled: true
     available_layouts:
-      kingly_onecol: 'Kingly: One column'
-      kingly_twocol: 'Kingly: Two column'
-      kingly_threecol: 'Kingly: Three column'
-      kingly_fourcol: 'Kingly: Four column'
+      kingly_onecol: 'One column'
+      kingly_twocol: 'Two column'
+      kingly_threecol: 'Three column'
+      kingly_fourcol: 'Four column'
