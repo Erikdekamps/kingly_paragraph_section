@@ -54,7 +54,7 @@ default:
             -
               value:
                 layout_paragraphs:
-                  layout: kingly_onecol
+                  layout: kl_one_column
                   config:
                     label: ''
                     sizing_option: 100
@@ -247,7 +247,7 @@ default:
                 layout_paragraphs:
                   move_items:
                     content: first
-                  layout: kingly_twocol
+                  layout: kl_two_column
                   config:
                     label: ''
                     sizing_option: 50-50
@@ -463,7 +463,7 @@ default:
             -
               value:
                 layout_paragraphs:
-                  layout: kingly_twocol
+                  layout: kl_two_column
                   config:
                     label: ''
                     sizing_option: 25-75
@@ -681,7 +681,7 @@ default:
             -
               value:
                 layout_paragraphs:
-                  layout: kingly_twocol
+                  layout: kl_two_column
                   config:
                     label: ''
                     sizing_option: 75-25
@@ -899,7 +899,7 @@ default:
             -
               value:
                 layout_paragraphs:
-                  layout: kingly_twocol
+                  layout: kl_two_column
                   config:
                     label: ''
                     sizing_option: 33-67
@@ -1117,7 +1117,7 @@ default:
             -
               value:
                 layout_paragraphs:
-                  layout: kingly_twocol
+                  layout: kl_two_column
                   config:
                     label: ''
                     sizing_option: 67-33
@@ -1335,7 +1335,7 @@ default:
             -
               value:
                 layout_paragraphs:
-                  layout: kingly_threecol
+                  layout: kl_three_column
                   config:
                     label: ''
                     sizing_option: 33-34-33
@@ -1578,7 +1578,7 @@ default:
             -
               value:
                 layout_paragraphs:
-                  layout: kingly_threecol
+                  layout: kl_three_column
                   config:
                     label: ''
                     sizing_option: 25-50-25
@@ -1821,7 +1821,7 @@ default:
             -
               value:
                 layout_paragraphs:
-                  layout: kingly_threecol
+                  layout: kl_three_column
                   config:
                     label: ''
                     sizing_option: 25-25-50
@@ -2064,7 +2064,7 @@ default:
             -
               value:
                 layout_paragraphs:
-                  layout: kingly_threecol
+                  layout: kl_three_column
                   config:
                     label: ''
                     sizing_option: 50-25-25
@@ -2307,7 +2307,7 @@ default:
             -
               value:
                 layout_paragraphs:
-                  layout: kingly_fourcol
+                  layout: kl_four_column
                   config:
                     label: ''
                     sizing_option: 25-25-25-25
@@ -2590,7 +2590,7 @@ default:
             -
               value:
                 layout_paragraphs:
-                  layout: kingly_fourcol
+                  layout: kl_four_column
                   config:
                     label: ''
                     sizing_option: 40-20-20-20
@@ -2873,7 +2873,7 @@ default:
             -
               value:
                 layout_paragraphs:
-                  layout: kingly_fourcol
+                  layout: kl_four_column
                   config:
                     label: ''
                     sizing_option: 20-40-20-20
@@ -3156,7 +3156,7 @@ default:
             -
               value:
                 layout_paragraphs:
-                  layout: kingly_fourcol
+                  layout: kl_four_column
                   config:
                     label: ''
                     sizing_option: 20-20-40-20
@@ -3439,7 +3439,7 @@ default:
             -
               value:
                 layout_paragraphs:
-                  layout: kingly_fourcol
+                  layout: kl_four_column
                   config:
                     label: ''
                     sizing_option: 20-20-20-40
