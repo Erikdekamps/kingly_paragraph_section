@@ -15,4 +15,4 @@ config:
         options:
           type: 'layout_paragraphs'
           settings:
-            require_layouts: 1
+            require_layouts: 0
