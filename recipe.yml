@@ -16,4 +16,3 @@ config:
           type: 'layout_paragraphs'
           settings:
             require_layouts: 1
-            nesting_depth: 2
